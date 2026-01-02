@@ -1,3 +1,46 @@
+# learn___fullstack-monorepo
+
+This project is a fullstack monorepo (React-Express-MySQL) created as part of my learning at Wild Code School (v7.2.4).
+
+## Purpose
+
+The goal of this repository is to learn and practice building a fullstack application with:
+- a React frontend using Vite
+- an Express backend
+- a MySQL database
+- proper project architecture and folder structure
+- tools for code quality and testing
+
+This project is part of my learning process and was pre-configured to help students produce maintainable and industrial-quality code while remaining pedagogical.
+
+## What I practiced
+
+- Setting up a fullstack monorepo with separate `client` and `server` folders
+- Connecting React frontend to Express backend via REST APIs
+- Consuming and managing a MySQL database
+- Using Docker for development and deployment
+- Handling environment variables with `.env` and `.env.sample`
+- Running multiple processes concurrently (`concurrently`)
+- Ensuring code quality with Biome (alternative to ESLint/Prettier)
+- Writing tests for the backend using Supertest
+- Implementing middleware and routing in Express
+- Structuring TypeScript projects with modules, actions, and repositories
+- Applying good practices: SOLID principles, consistent coding style, security considerations
+
+## Status
+
+This is a learning project and not intended for production use.  
+It is maintained as a reference for my fullstack development learning journey.
+
+## Notes
+
+- The project includes scripts for running the client and server (`npm run dev`), database migration (`npm run db:migrate`), code checks (`npm run check`), and tests (`npm run test`).
+- Docker and Traefik are supported for deployment.
+- Environment variables follow the pattern `<PROJECT_NAME><SPECIFIC_NAME>` as outlined in `.env.sample`.
+- Contributions follow standard Git workflow (fork → branch → commit → pull request).
+- This repository demonstrates best practices taught at Wild Code School, including modular architecture, RESTful API development, and fullstack integration.
+
+
 # wild-series
 
 Ce projet est un monorepo JS, suivant l'architecture React-Express-MySQL telle qu'enseignée à la Wild Code School (v7.2.4) :
